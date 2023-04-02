@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Helmet>
-        <title>My Page Title</title>
+        <title>Madushan Ranasinghe</title>
         <meta name="description" content="width=device-width, intial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/styles.css" />
