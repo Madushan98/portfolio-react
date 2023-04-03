@@ -6,7 +6,7 @@ import AnimatedText from "../components/AnimatedText";
 const HomePage = () => {
   return (
     <div>
-      <main className="flex items-center text-dark w-full min-h-screen">
+      <main className="flex items-center text-dark w-full min-h-[85vh]">
         <Layout className="pt-0">
           <div className="flex items-center justify-between w-full">
             <div className="w-1/3">
@@ -15,11 +15,11 @@ const HomePage = () => {
             <div className="w-3/5">
               <AnimatedText
                 text="Hi! I'm Madushan"
-                className="text-5xl !text-left"
+                className="text-3xl !text-left"
               />
               <AnimatedText
                 text="I Turn Vison Into Reality With Code !"
-                className="text-4xl !text-left"
+                className="text-2xl !text-left"
               />
               <p>
                 I am a full stack developer with a passion for creating

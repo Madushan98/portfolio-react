@@ -49,7 +49,7 @@ const CustomLink: React.FC<CustomLinkProps> = ({ to, Icon, className }) => {
 
 const Navbar = () => {
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between">
+    <header className="w-full px-32 py-8 font-medium flex items-center justify-between ">
       <nav>
         <CustomNavLink to="/" title="Home" />
         <CustomNavLink to="/about" title="About" />
