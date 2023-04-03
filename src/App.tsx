@@ -12,8 +12,6 @@ function App() {
       <Helmet>
         <title>Madushan Ranasinghe</title>
         <meta name="description" content="width=device-width, intial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="/styles.css" />
       </Helmet>
       <main className="font-mont bg-light w-full min-h-screen">
         <Navbar />
