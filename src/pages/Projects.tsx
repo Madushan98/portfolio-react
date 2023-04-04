@@ -8,9 +8,12 @@ const Projects: React.FC = () => {
   const projectList: Project[] = projects;
   return (
     <div>
-      <main className="flex items-center text-dark w-full  ">
+      <main className="flex items-center text-dark w-full">
         <Layout className="pt-10">
-          <ScrollableComponent children={projectList}></ScrollableComponent>
+          <div className="md:overflow-x-hidden">
+            {/* Only allow horizontal scrolling on screens wider than `md` */}
+            <ScrollableComponent children={projectList}></ScrollableComponent>
+          </div>
         </Layout>
       </main>
     </div>

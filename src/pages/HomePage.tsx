@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
                 className="w-[24-rem]  h-[20rem] md:h-auto md:w-full px-6 mx-auto"
               ></img>
             </div>
-            <div className="w-full md:w-3/5 pl-4 mx-auto ">
+            <div className="w-full md:w-2/5  mx-auto ">
               <AnimatedText
                 text="Hi! I'm Madushan"
                 className="text-4xl md:text-8xl !text-center md:!text-left"
